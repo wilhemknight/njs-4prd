@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn --offline
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/Users/nexgenmac/go/bin:/Users/nexgenmac/.gloud_files/google-cloud-sdk/bin:/Users/nexgenmac/flutter/bin:/Users/nexgenmac/.bun/bin:/Users/nexgenmac/.deno/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/nexgenmac/go/bin:/Users/nexgenmac/.gloud_files/google-cloud-sdk/bin:/Users/nexgenmac/flutter/bin:/Users/nexgenmac/.bun/bin:/Users/nexgenmac/.deno/bin:/Users/nexgenmac/.cargo/bin:/Users/nexgenmac/Library/Android/Sdk/tools:/Users/nexgenmac/Library/Android/Sdk/platform-tools:/Users/nexgenmac/Library/Android/Sdk/tools:/Users/nexgenmac/Library/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nexgenmac/Documents/dev/__NEW/stage37/nodejs-assets/nodejs-project/package.json: Unexpected token } in JSON at position 470
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "//": [
+      "Rename this sample file to package.json to use on your project.",
+      "The sample-package.json file will be overwritten in updates/reinstalls."
+    ],
+    "name": "sample-node-project",
+    "version": "0.0.1",
+    "description": "node part of the project",
+    "main": "main.js",
+    "author": "janeasystems",
+    "license": "",
+    "dependencies": {
+      "express": "^4.18.2",
+      "leveldown-nodejs-mobile": "^6.0.1-1",
+      "levelup": "^5.1.1",
+      "nedb": "^1.8.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,11 @@
+com/janeasystems/rn_nodejs_mobile/RNNodeJsMobilePackage.java
+ com.janeasystems.rn_nodejs_mobile.RNNodeJsMobilePackage
+com/janeasystems/rn_nodejs_mobile/BuildConfig.java
+ com.janeasystems.rn_nodejs_mobile.BuildConfig
+com/janeasystems/rn_nodejs_mobile/RNNodeJsMobileModule.java
+ com.janeasystems.rn_nodejs_mobile.RNNodeJsMobileModule
+ com.janeasystems.rn_nodejs_mobile.RNNodeJsMobileModule$1
+ com.janeasystems.rn_nodejs_mobile.RNNodeJsMobileModule$2
+ com.janeasystems.rn_nodejs_mobile.RNNodeJsMobileModule$3
+ com.janeasystems.rn_nodejs_mobile.RNNodeJsMobileModule$4
+ com.janeasystems.rn_nodejs_mobile.RNNodeJsMobileModule$5
